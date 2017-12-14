@@ -7,6 +7,6 @@ public class Exercicio01{
 
 		float media = (idade+idadeSandy+idadeJehnifer) /3; 
 
-		Console.Write(media)
+		Console.Write(media);
 	}
 }
