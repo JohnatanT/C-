@@ -5,6 +5,6 @@ public class Exercicio02{
 		string cargo = "Web Developer";
 		float salario = 700;
 
-		Console.Write("Nome: " +nome+ " cargo: " +cargo+ " Salario: " +salario);
+		Console.Write(string.Format("{0} {1}", nome, cargo) + " Ganhando: " + salario);
 	}
 }
